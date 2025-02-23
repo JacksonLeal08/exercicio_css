@@ -1,0 +1,148 @@
+/* Comentário de CSS */
+
+/* Seleção geral de elementos sem identificação de id e ou classe */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640; /* cor de fundo - cinza escuro */
+    padding: 16px 0; /* padding - 16px em cima e em baixo, 0 nas laterais */
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* espaço entre os elementos */
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+.container {
+    width: 1366px; /* largura - 1366px */
+    margin: 0 auto; /* margem - 0 em cima, auto nas laterais e 0 em baixo */
+    padding: 0 20px; /* padding - 0 em cima e em baixo, 20px nas laterais */
+}
+
+.articles {
+    /* content: ""; */
+    display: flex; /* flexbox */
+    flex-wrap: wrap; /* quebra de linha */
+    justify-content: space-between; /* espaço entre os elementos */
+}
+
+.articles article img{
+    /* height: 180px;  */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    /* padding: 10px; */
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: #2f3640 2px 2px 2px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    box-shadow: #2f3640 2px 2px 2px;
+}
+.articles article p,
+.articles article a {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles h3 {
+    font-size: 24px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1); /* cor de fundo - verde claro */
+}
+
+#sports .articles article a {
+    background-color: green;
+}
+
+#economy {
+    background-color: #fffa65; /* cor de fundo - amarelo claro */
+
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+/* Novos intens do Exercício */
+
+#entreteniment {
+    background-color: #FFE4E1;
+}
+
+#entreteniment .articles article a {
+background-color: #FA8072;
+}
+
+#technology {
+background-color: #7fccf5;
+}
+
+#technology .articles article a {
+background-color: #0821ad;
+}
+
+img {
+height: 200px;
+object-fit: cover;
+width: 200px;
+}
+
+.creation-date {
+color: #2c3e50;
+}
+
+footer {
+background-color: #dde3ec;
+text-align: center;
+}
